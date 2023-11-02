@@ -1,0 +1,55 @@
+<!-- <div class="container">
+  <div class="navbar fixed-header" style="width: 100%">
+    <p-menubar [model]="items">
+      <div class="logo" style="font-size: 35px">GEOSCAN</div>
+    </p-menubar>
+  </div>
+</div> -->
+<div class="nav-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg">
+          <div
+            class="nav-space d-flex align-items-center justify-content-between d-lg-block"
+          >
+            <a
+              class="navbar-brand d-inline-block"
+              href="https://www.construction-negligence.co.uk"
+            >
+              GEOSCAN
+            </a>
+            <button
+              class="navbar-toggler btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            ></button>
+          </div>
+          <div id="navbarNav" class="navbar-collapse collapse">
+            <ul
+              id="menu-primary-navigation"
+              class="navbar-nav ml-auto"
+              itemscope=""
+              itemtype="http://www.schema.org/SiteNavigationElement"
+            >
+              <li *ngFor="let item of items"
+                id="menu-item-53"
+                class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-53 nav-item"
+              >
+                <a
+                  [href]="item.routerLink"
+                  class="nav-link"
+                  ><span itemprop="name">{{ item.label }}</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

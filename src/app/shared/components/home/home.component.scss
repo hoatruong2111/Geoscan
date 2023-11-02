@@ -1,0 +1,104 @@
+.hero {
+  background-color: #343a40;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  padding-bottom: calc(3.5rem + 92px);
+  padding-top: calc(1.5rem + 30px);
+  min-height: 514px;
+  background-image: url("https://www.construction-negligence.co.uk/wp-content/uploads/2021/03/hero-image.jpg.webp");
+}
+
+.product-item {
+  .product-item-content {
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: 0.3rem;
+    text-align: center;
+    height: 300%;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+}
+.p-carousel-container {
+  width: 100%;
+}
+
+.experience-company {
+  padding-left: 107px;
+  padding-right: 107px;
+  box-sizing: border-box;
+  background-color: #2d2d2d !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+  .column_container{
+    padding: 10px 0;
+
+    .ex_wrapper{
+        margin-top: 10px;
+    }
+  }
+  .ex_custom_heading {
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .ex-content {
+    display: flex;
+  }
+  .ex-text {
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+  }
+}
+
+.ex_separator .ex_sep_holder .ex_sep_line {
+  border-top-width: 2px;
+  height: 1px;
+  border-color: #ffc233;
+  border-top: 1px solid #ebebeb;
+  display: block;
+  position: relative;
+  top: 1px;
+  width: 100%;
+}
+
+.ex_column-inner {
+  margin: 10px;
+  border-top-width: 1px !important;
+  border-right-width: 1px !important;
+  border-bottom-width: 1px !important;
+  border-left-width: 1px !important;
+  padding-top: 15px !important;
+  padding-right: 20px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  border-left-color: #efb837 !important;
+  border-left-style: dashed !important;
+  border-right-color: #efb837 !important;
+  border-right-style: dashed !important;
+  border-top-color: #efb837 !important;
+  border-top-style: dashed !important;
+  border-bottom-color: #efb837 !important;
+  border-bottom-style: dashed !important;
+  border-radius: 20px !important;
+}
+
+.ex_align_center {
+  text-align: center;
+}
+.vc_custom_1579145839819 {
+  margin-bottom: 10px !important;
+}
